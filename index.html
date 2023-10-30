@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>GeeksterMon</h1>
+    <div class="functions">
+        <form action="" id="searchForm">
+            <input type="text" name="" id="searchBar" placeholder="Search Pokemon By Name --" />
+        </form>
+        <form action="" id="filterForm">
+            <div class="filterContainer">
+                <select name="" id="filterOption">
+            <option value="" selected disabled>Type ~</option>
+          </select>
+                <button id="filterButton">Filter By Type</button>
+                <button id="sortButton">Sort By Height ⬆</button>
+            </div>
+            <button onclick="window.location.reload()">Reset</button>
+        </form>
+    </div>
+    <div id="pokemon-container"></div>
+    <dialog id="myDialog">
+        <div class="modal"></div>
+    </dialog>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+.
